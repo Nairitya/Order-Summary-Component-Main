@@ -38,6 +38,7 @@ h2 {
   overflow: hidden;
   text-align: center;
   box-shadow: 15px 15px 30px 5px hsla(245, 75%, 52%, 0.1);
+  margin: 10px;
 }
 
 .top-image {
@@ -46,7 +47,7 @@ h2 {
 }
 
 .details-section {
-  padding: 2rem 3rem;
+  padding: 5% 10%;
 }
 
 .heading-text {
@@ -151,4 +152,16 @@ button {
 button:hover,
 .change-text:hover {
   cursor: pointer;
+}
+
+@media (max-width: 356px) {
+  .details-section {
+    padding: 1rem;
+  }
+  .music-icon {
+    margin-right: 1rem;
+  }
+  .pricing-section {
+    padding: 0.8em;
+  }
 }
