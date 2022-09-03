@@ -105,6 +105,11 @@ h2 {
   font-weight: 700;
 }
 
+.change-text:hover {
+  color: rgba(118, 108, 241, 255);
+  text-decoration: none;
+}
+
 button {
   display: block;
   width: 100%;
@@ -123,13 +128,27 @@ button {
   box-shadow: 0 15px 20px 2px hsla(245, 49%, 67%, 0.3);
 }
 
+.payment-button:hover {
+  background-color: rgba(118, 108, 241, 255);
+}
+
 .cancel-button {
   background-color: transparent;
   color: hsl(224, 23%, 55%);
   padding-bottom: 0;
 }
+.cancel-button:hover {
+  color: hsl(223, 47%, 23%);
+}
 
 .attribution {
   position: absolute;
   bottom: 10px;
+}
+
+/* HOVER EFFECT */
+
+button:hover,
+.change-text:hover {
+  cursor: pointer;
 }
