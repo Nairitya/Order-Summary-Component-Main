@@ -64,9 +64,6 @@ h2 {
   background-color: hsla(225, 100%, 94%, 0.3);
   width: 100%;
   margin-bottom: 2rem;
-}
-
-.pricing-section {
   position: relative;
   vertical-align: middle;
   display: flex;
@@ -74,6 +71,7 @@ h2 {
   padding: 1.5rem;
   border-radius: 10px;
 }
+
 .music-icon {
   flex-grow: 1;
   max-height: 40px;
